@@ -6,7 +6,9 @@ The falcon will:
 * sit on the characters arm
 * scope out ahead - search for enemies
 * attack weaker enemies
+* catch prey
 * collect items?
+* stretch - how you treat the falcon effects it's behaviour? may not return for awhile if mean, find more items when happy?
 
 (Need to reseach falconery more)
 
@@ -20,6 +22,4 @@ The falcon will:
 
 
 ##Is the scope appropriate for the product development time-frame?
-
-
-
+* Depends on how many features
