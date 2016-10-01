@@ -1,6 +1,8 @@
-#COMP230 – Component Proposal 
-####Companion AI - Falcon
-##What is the product?
+# COMP230  - Pre-production
+[All code will be under the Companion AI branch](https://github.com/NecroReindeer/comp230-pre-production/tree/Companion-AI)
+# Component Proposal 
+#### Companion AI - Falcon
+## What is the product?
 A companion AI that controls the falcon in the game. 
 The falcon will:
 * sit on the characters arm
@@ -12,14 +14,14 @@ The falcon will:
 
 (Need to reseach falconery more)
 
-##Is there a market? Who is the target audience?
+## Is there a market? Who is the target audience?
 * Market as a companion AI system
 * Should be adaptable to different animals
 * Don't think a falcon has been used as a companion before
 
-##What are the unique selling points?
-* 
+## What are the unique selling points?
+* Birds aren't commonly used in games beyond being in the background
 
 
-##Is the scope appropriate for the product development time-frame?
+## Is the scope appropriate for the product development time-frame?
 * Depends on how many features
