@@ -26,31 +26,45 @@
 \maketitle
 	
 \section{Outline}
-My component is companion animal AI. My prototype is based on a Falcon.
+My component is a companion animal AI using a behaviour tree in C++. My prototype is based on a Falcon therefore some of the branches are specific to a falcon.  Branch changes are triggered either by the player or the game environment. 
 
 
-The base version is based on birds - fight or flight
 
-
+The figure below shows the initial layout of the branches.
 \begin{figure}[h]
 	\includegraphics[width=1.2\linewidth]{behaviour_tree.png}
 	\caption{ Behaviour tree being used on a falcon companion}
 \end{figure} 
 
+The AI will search for useful objects for the player, search for enemies
+
+When used with the navigable terrain generator the AI can use path finding to lead the player in the right direction. 
 
 \section{Market Research}
-Companion AI's tend to be people....
+Birds do not appear in games very often, they are mostly used as part of the environment that flies off when the player enter an area.
+When researching companion AIs I found that they are often human \cite{DragonAge, LastOfUs, Bioshock}. There are also a number of features/behaviours that players say are required for a good AI companion. 
 
-Games with dog AI like dragon age...
+Two popular companions are Ellie from The Last of Us and Elizabeth from Bioshock Infinite. Both AIs aid the player by fetching helpful in game items, assisting in battles and leading the player towards the next goal in the game.
+Guiding the player is a common behaviour in AI 
 
-VR games using floaty robots...
 
-Birds rarely used ... more environment / background
+As VR games are relatively new games often use some sort of companion to guide the player \cite{RobinsonVR} .
+
 
 companion AI system 
 should be easy to adapt to other animals
 
+- Navvi - ocarina of time
+- wheatley portal
+
+
+
+\section{Scope and Commercial Feasibility}
+The scope of the component depends on the number of branches implemented. Once the nodes a working it's relatively easy to adapt and add branches.
+
+There are numerous behaviour tree managing tools on the Unity Asset store where the price varies from being free to \pounds225. Most of the tools come with a GUI so mine would need to be significantly cheaper as it is a lot more difficult to use.
+
 \bibliographystyle{ieeetr}
-%\bibliography{comp230_1}
+\bibliography{comp230}
 	
 \end{document}
