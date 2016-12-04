@@ -26,9 +26,8 @@
 \maketitle
 	
 \section{Outline}
-My component is a companion animal AI using a behaviour tree in C++. My prototype is based on a Falcon therefore some of the branches are specific to a falcon.  Branch changes are triggered either by the player or the game environment. 
-
-
+My component is a companion animal AI using a behaviour tree in C++. My prototype is based on a Falcon therefore some of the branches are specific to a falcon but can easily be changed. The AI will search for useful objects for the player, search for enemies, attack/stun them and flee when injured.
+ Branch changes are triggered either by the player or the game environment. 
 
 The figure below shows the initial layout of the branches.
 \begin{figure}[h]
@@ -37,10 +36,7 @@ The figure below shows the initial layout of the branches.
 \end{figure} 
 
 In figure 1 green represents sequence nodes, yellow is for selector nodes, blue for decorator and pink for leaf nodes.
-
-The AI will search for useful objects for the player, search for enemies, attack/stun them and flee when injured.
-
-When used with the navigable terrain generator the AI can use path finding to lead the player in the right direction. 
+ 
 
 \section{Market Research}
 Birds do not appear in games very often, they are mostly used as part of the environment that flies off when the player enter an area.
@@ -68,12 +64,14 @@ There are numerous behaviour tree managing tools on the Unity Asset store where 
 The Unity Asset store guidelines say that packages priced over \$50 are often the best selling ones. Also when looking at behaviour tree tools on the Asset store many of the best selling tools are above that price. This suggests that somewhere around \$50 would be a good price for my tool if I added a GUI to make it more accessible to users. As the target audience is indie game developers with little code experience or trying to make a quick prototype it would 
 \bigskip
 
- A unique selling point is that most behaviour trees tools on the asset store are general tools not specific to companion AIs mine is specifically designed for companions.
+A unique selling point is that most behaviour trees tools on the asset store are general tools not specific to companion AIs mine is specifically designed for companions. 
 
 
 Also using a platform such as the Unity Asset store will result in the store taking a cut of the money made from it 
 
 
+\section{ Working with PCG Navigable Terrain Component }
+The PCG of the terrain itself does not effect my AI as it's currently a flying bird. However the terrain generated will use pathfinding to find navigable terrain for the player. These paths will be shared with the AI allowing it  to direct the player in the desired direction. 
 
 \bibliographystyle{ieeetr}
 \bibliography{comp230}
