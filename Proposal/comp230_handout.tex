@@ -36,7 +36,9 @@ The figure below shows the initial layout of the branches.
 	\caption{ Behaviour tree being used on a falcon companion}
 \end{figure} 
 
-The AI will search for useful objects for the player, search for enemies
+In figure 1 green represents sequence nodes, yellow is for selector nodes, blue for decorator and pink for leaf nodes.
+
+The AI will search for useful objects for the player, search for enemies, attack/stun them and flee when injured.
 
 When used with the navigable terrain generator the AI can use path finding to lead the player in the right direction. 
 
@@ -62,7 +64,8 @@ should be easy to adapt to other animals
 \section{Scope and Commercial Feasibility}
 The scope of the component depends on the number of branches implemented. Once the nodes a working it's relatively easy to adapt and add branches.
 
-There are numerous behaviour tree managing tools on the Unity Asset store where the price varies from being free to \pounds225. Most of the tools come with a GUI so mine would need to be significantly cheaper as it is a lot more difficult to use.
+There are numerous behaviour tree managing tools on the Unity Asset store where the price varies from being free to \pounds225. Most of the tools come with a GUI so mine would need to be significantly cheaper as it is a lot more difficult to use. However most on the asset store are general behaviour tree tools not specific to companion AI.
+Also using a platform such as the Unity Asset store will result in the store taking a cut of the money made from it 
 
 \bibliographystyle{ieeetr}
 \bibliography{comp230}
